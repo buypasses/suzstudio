@@ -419,8 +419,8 @@ export default function WorkPage() {
                 MY WORK
               </h1>
             </HeroText>
-            <p className="text-center text-cream/70 text-sm sm:text-lg mb-4 sm:mb-12 max-w-2xl mx-auto">
-              Live content capture for DJs, event producers, and creatives
+            <p className="text-center text-cream/70 text-xs sm:text-sm mb-4 sm:mb-12 max-w-3xl mx-auto whitespace-nowrap">
+              Live content and professional capture for DJs, event producers, and creatives
             </p>
           </FadeInUp>
 
