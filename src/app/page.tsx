@@ -87,24 +87,43 @@ export default function Home() {
                     THE CREATOR
                   </h2>
                 </div>
+                <p className="text-cream/90 text-lg leading-relaxed mb-4">
+                  I&apos;m Suzzy! A Los Angeles native based in Washington, DC. I&apos;m a videographer who captures DJs, event producers, and creatives and I turn their experiences into high-performing social content that feels authentic, energetic, and Instagram Story, Reel, and TikTok ready.
+                </p>
                 <p className="text-cream/90 text-lg leading-relaxed mb-8">
-                  I&apos;m Suzzy! A Los Angeles native currently creating in Washington, DC.
-                  I&apos;m a videographer specializing in live content capture, bringing moments
-                  to life in real time. I help DJs, event producers, and creatives turn their
-                  experiences into high-performing social content that feels authentic,
-                  energetic, and Instagram story, Reel, and TikTok ready.
+                  I offer real-time coverage shot on mobile and professionally shot video content using my camera setup for clients who want more polished, cinematic visuals. Whether you need promotional content, branded visuals, or behind the scenes content, I create high-quality footage that elevates your brand beyond social stories.
                 </p>
 
                 <h3 className="heading-display text-3xl lg:text-4xl text-gold italic mb-6">
                   WHAT I OFFER
                 </h3>
+
+                <h4 className="text-cream text-xl font-semibold mb-3">Live Content Capture</h4>
+                <StaggerContainer staggerDelay={0.1} className="space-y-3 mb-6">
+                  {[
+                    'Real-time posting for Instagram Stories',
+                    'Clear, quality short-form content for Instagram Reels, TikTok, YouTube Shorts, etc.',
+                    'Crowd reactions, emotion, and momentum shots',
+                    'Quick turnaround for raw footage delivery (less than 24 hours)',
+                    'Dropbox or iMessage delivery',
+                  ].map((item, i) => (
+                    <StaggerItem key={i}>
+                      <li className="flex items-start gap-3 text-cream/80 text-lg list-none">
+                        <span className="text-gold">•</span>
+                        {item}
+                      </li>
+                    </StaggerItem>
+                  ))}
+                </StaggerContainer>
+
+                <h4 className="text-cream text-xl font-semibold mb-3">Professional Camera Production</h4>
                 <StaggerContainer staggerDelay={0.1} className="space-y-3 mb-8">
                   {[
-                    'Real time posting for Instagram stories',
-                    'Clear, quality short form content to reuse for social media (Instagram Reels, TikTok, YouTube Shorts, etc)',
-                    'Crowd reactions, emotion and momentum shots',
-                    'Quick turn around time for raw footage delivery (less than 24 hours)',
-                    'Dropbox or IMessage delivery',
+                    'High-quality event recap videos',
+                    'Branded promotional videos',
+                    'Artist/DJ performance coverage',
+                    'Behind-the-scenes content',
+                    'Professionally shot footage for marketing campaigns',
                   ].map((item, i) => (
                     <StaggerItem key={i}>
                       <li className="flex items-start gap-3 text-cream/80 text-lg list-none">
