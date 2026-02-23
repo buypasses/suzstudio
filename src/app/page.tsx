@@ -82,14 +82,6 @@ export default function Home() {
             <div className="flex flex-col lg:flex-row gap-12 lg:gap-16 items-center">
               {/* Text Content */}
               <FadeInLeft className="lg:w-1/2">
-                <MagneticHover className="inline-block mb-6">
-                  <Link
-                    href="/work"
-                    className="inline-block text-gold text-xl tracking-wide font-medium border-b-2 border-gold pb-1 hover:text-accent-bright hover:border-accent-bright transition-all duration-300"
-                  >
-                    CHECK OUT MY WORK
-                  </Link>
-                </MagneticHover>
                 <div className="float-smooth">
                   <h2 className="heading-display text-4xl lg:text-5xl text-gold italic mb-8">
                     THE CREATOR
@@ -122,6 +114,14 @@ export default function Home() {
                     </StaggerItem>
                   ))}
                 </StaggerContainer>
+                <MagneticHover className="inline-block mb-6">
+                  <Link
+                    href="/work"
+                    className="inline-block text-gold text-xl tracking-wide font-medium border-b-2 border-gold pb-1 hover:text-accent-bright hover:border-accent-bright transition-all duration-300"
+                  >
+                    CHECK OUT MY WORK
+                  </Link>
+                </MagneticHover>
               </FadeInLeft>
 
               {/* Image - use work-portrait-2 which matches original site */}
