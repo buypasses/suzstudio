@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" font-family="Georgia, serif">
+  <!-- Background -->
+  <rect width="1200" height="520" fill="#1a1a1a"/>
+
+  <!-- Title -->
+  <text x="600" y="38" text-anchor="middle" font-size="18" font-weight="bold" fill="#d4a843" letter-spacing="2">BEFORE vs AFTER — "CHECK OUT MY WORK" position change</text>
+  <line x1="40" y1="50" x2="1160" y2="50" stroke="#d4a843" stroke-width="1" opacity="0.4"/>
+
+  <!-- BEFORE panel -->
+  <rect x="40" y="68" width="530" height="420" rx="12" fill="#263C29"/>
+  <text x="305" y="96" text-anchor="middle" font-size="13" font-weight="bold" fill="#d4a843" letter-spacing="3">BEFORE</text>
+
+  <!-- Before: CHECK OUT MY WORK at top -->
+  <rect x="70" y="110" width="220" height="32" rx="4" fill="none" stroke="#d4a843" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="180" y="131" text-anchor="middle" font-size="13" font-weight="bold" fill="#d4a843" letter-spacing="1">CHECK OUT MY WORK</text>
+  <line x1="70" y1="142" x2="290" y2="142" stroke="#d4a843" stroke-width="1.5"/>
+
+  <!-- Before: THE CREATOR heading -->
+  <text x="70" y="185" font-size="26" font-style="italic" font-weight="bold" fill="#d4a843" letter-spacing="2">THE CREATOR</text>
+
+  <!-- Before: paragraph -->
+  <rect x="70" y="200" width="460" height="10" rx="3" fill="#e8dcc8" opacity="0.3"/>
+  <rect x="70" y="218" width="440" height="10" rx="3" fill="#e8dcc8" opacity="0.3"/>
+  <rect x="70" y="236" width="420" height="10" rx="3" fill="#e8dcc8" opacity="0.3"/>
+  <rect x="70" y="254" width="300" height="10" rx="3" fill="#e8dcc8" opacity="0.3"/>
+
+  <!-- Before: WHAT I OFFER heading -->
+  <text x="70" y="300" font-size="20" font-style="italic" font-weight="bold" fill="#d4a843" letter-spacing="2">WHAT I OFFER</text>
+
+  <!-- Before: bullets -->
+  <circle cx="80" cy="325" r="3" fill="#d4a843"/>
+  <rect x="95" y="318" width="350" height="10" rx="3" fill="#e8dcc8" opacity="0.5"/>
+  <circle cx="80" cy="347" r="3" fill="#d4a843"/>
+  <rect x="95" y="340" width="390" height="10" rx="3" fill="#e8dcc8" opacity="0.5"/>
+  <circle cx="80" cy="369" r="3" fill="#d4a843"/>
+  <rect x="95" y="362" width="320" height="10" rx="3" fill="#e8dcc8" opacity="0.5"/>
+  <circle cx="80" cy="391" r="3" fill="#d4a843"/>
+  <rect x="95" y="384" width="370" height="10" rx="3" fill="#e8dcc8" opacity="0.5"/>
+  <circle cx="80" cy="413" r="3" fill="#d4a843"/>
+  <text x="95" y="420" font-size="12" fill="#e8dcc8" opacity="0.8">Dropbox or IMessage delivery</text>
+
+  <!-- Before: Arrow indicating old position -->
+  <text x="280" y="131" font-size="11" fill="#ff6b6b">← was here</text>
+
+  <!-- AFTER panel -->
+  <rect x="630" y="68" width="530" height="420" rx="12" fill="#263C29"/>
+  <text x="895" y="96" text-anchor="middle" font-size="13" font-weight="bold" fill="#d4a843" letter-spacing="3">AFTER</text>
+
+  <!-- After: THE CREATOR heading (now first) -->
+  <text x="660" y="160" font-size="26" font-style="italic" font-weight="bold" fill="#d4a843" letter-spacing="2">THE CREATOR</text>
+
+  <!-- After: paragraph -->
+  <rect x="660" y="175" width="460" height="10" rx="3" fill="#e8dcc8" opacity="0.3"/>
+  <rect x="660" y="193" width="440" height="10" rx="3" fill="#e8dcc8" opacity="0.3"/>
+  <rect x="660" y="211" width="420" height="10" rx="3" fill="#e8dcc8" opacity="0.3"/>
+  <rect x="660" y="229" width="300" height="10" rx="3" fill="#e8dcc8" opacity="0.3"/>
+
+  <!-- After: WHAT I OFFER heading -->
+  <text x="660" y="275" font-size="20" font-style="italic" font-weight="bold" fill="#d4a843" letter-spacing="2">WHAT I OFFER</text>
+
+  <!-- After: bullets -->
+  <circle cx="670" cy="300" r="3" fill="#d4a843"/>
+  <rect x="685" y="293" width="350" height="10" rx="3" fill="#e8dcc8" opacity="0.5"/>
+  <circle cx="670" cy="322" r="3" fill="#d4a843"/>
+  <rect x="685" y="315" width="390" height="10" rx="3" fill="#e8dcc8" opacity="0.5"/>
+  <circle cx="670" cy="344" r="3" fill="#d4a843"/>
+  <rect x="685" y="337" width="320" height="10" rx="3" fill="#e8dcc8" opacity="0.5"/>
+  <circle cx="670" cy="366" r="3" fill="#d4a843"/>
+  <rect x="685" y="359" width="370" height="10" rx="3" fill="#e8dcc8" opacity="0.5"/>
+  <circle cx="670" cy="388" r="3" fill="#d4a843"/>
+  <text x="685" y="395" font-size="12" fill="#e8dcc8" opacity="0.8">Dropbox or IMessage delivery</text>
+
+  <!-- After: CHECK OUT MY WORK now below bullets -->
+  <rect x="660" y="414" width="220" height="32" rx="4" fill="none" stroke="#d4a843" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="770" y="435" text-anchor="middle" font-size="13" font-weight="bold" fill="#d4a843" letter-spacing="1">CHECK OUT MY WORK</text>
+  <line x1="660" y1="446" x2="880" y2="446" stroke="#d4a843" stroke-width="1.5"/>
+  <!-- Green highlight for new position -->
+  <rect x="655" y="410" width="230" height="44" rx="4" fill="#4CAF50" opacity="0.15"/>
+  <text x="898" y="435" font-size="11" fill="#6fcf6f">← now here</text>
+
+  <!-- Divider between panels -->
+  <line x1="595" y1="68" x2="595" y2="488" stroke="#d4a843" stroke-width="1" opacity="0.3"/>
+</svg>
