@@ -407,7 +407,7 @@ function VideoGallery() {
 
 export default function WorkPage() {
   return (
-    <main className="min-h-screen bg-[#263C29]">
+    <main className="min-h-screen bg-white">
       <Header />
 
       {/* Work Gallery */}
