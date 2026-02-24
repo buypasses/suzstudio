@@ -473,7 +473,7 @@ export default function WorkPage() {
             <MagneticHover>
               <Link
                 href="/contact"
-                className="inline-block px-8 py-4 bg-gold text-background font-medium tracking-wide rounded-lg hover:bg-accent-bright transition-colors duration-300"
+                className="inline-block px-8 py-4 bg-[#263C29] text-white font-medium tracking-wide rounded-lg hover:bg-[#1a2a1c] transition-colors duration-300"
               >
                 GET IN TOUCH
               </Link>
