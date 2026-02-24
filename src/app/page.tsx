@@ -83,7 +83,7 @@ export default function Home() {
               {/* Text Content */}
               <FadeInLeft className="lg:w-1/2">
                 <div className="float-smooth">
-                  <h2 className="heading-display text-4xl lg:text-5xl text-gold italic mb-8">
+                  <h2 className="heading-display text-4xl lg:text-5xl text-[#263C29] italic mb-8">
                     THE CREATOR
                   </h2>
                 </div>
@@ -94,7 +94,7 @@ export default function Home() {
                   I offer real-time coverage shot on mobile and professionally shot video content using my camera setup for clients who want more polished, cinematic visuals. Whether you need promotional content, branded visuals, or behind the scenes content, I create high-quality footage that elevates your brand beyond social stories.
                 </p>
 
-                <h3 className="heading-display text-3xl lg:text-4xl text-gold italic mb-6">
+                <h3 className="heading-display text-3xl lg:text-4xl text-[#263C29] italic mb-6">
                   WHAT I OFFER
                 </h3>
 

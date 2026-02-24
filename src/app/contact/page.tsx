@@ -50,14 +50,14 @@ export default function ContactPage() {
                   <div>
                     <div className="float-smooth">
                       <HeroText delay={0.1}>
-                        <h1 className="heading-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-gold italic mb-2">
+                        <h1 className="heading-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-[#263C29] italic mb-2">
                           LET&apos;S
                         </h1>
                       </HeroText>
                     </div>
                     <div className="float-smooth-delayed">
                       <HeroText delay={0.2}>
-                        <h1 className="heading-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-gold italic">
+                        <h1 className="heading-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-[#263C29] italic">
                           CONNECT!
                         </h1>
                       </HeroText>
