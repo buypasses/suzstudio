@@ -415,18 +415,18 @@ export default function WorkPage() {
         <div className="max-w-7xl mx-auto w-full">
           <FadeInUp>
             <HeroText delay={0.1}>
-              <h1 className="heading-display text-3xl sm:text-4xl lg:text-6xl text-center mb-2 sm:mb-4 text-cream">
+              <h1 className="heading-display text-3xl sm:text-4xl lg:text-6xl text-center mb-2 sm:mb-4 text-[#263C29]">
                 MY WORK
               </h1>
             </HeroText>
-            <p className="text-center text-cream/70 text-xs sm:text-sm mb-4 sm:mb-12 max-w-3xl mx-auto whitespace-nowrap">
+            <p className="text-center text-[#263C29]/70 text-xs sm:text-sm mb-4 sm:mb-12 max-w-3xl mx-auto whitespace-nowrap">
               Live content and professional capture for DJs, event producers, and creatives
             </p>
           </FadeInUp>
 
           {/* Video Gallery Section */}
           <FadeInUp delay={0.2}>
-            <h2 className="heading-display text-xl sm:text-2xl lg:text-3xl text-center mb-4 sm:mb-8 text-gold italic">
+            <h2 className="heading-display text-xl sm:text-2xl lg:text-3xl text-center mb-4 sm:mb-8 text-[#263C29] italic">
               VIDEO HIGHLIGHTS
             </h2>
             <VideoGallery />
@@ -434,7 +434,7 @@ export default function WorkPage() {
 
           {/* Photo Gallery Section */}
           <FadeInUp delay={0.3}>
-            <h2 className="heading-display text-2xl lg:text-3xl text-center mt-10 mb-6 text-gold italic">
+            <h2 className="heading-display text-2xl lg:text-3xl text-center mt-10 mb-6 text-[#263C29] italic">
               PHOTO GALLERY
             </h2>
           </FadeInUp>
@@ -463,11 +463,11 @@ export default function WorkPage() {
         <div className="max-w-4xl mx-auto text-center">
           <FadeInUp>
             <HeroText delay={0.1}>
-              <h2 className="heading-display text-4xl lg:text-6xl text-gold italic mb-6">
+              <h2 className="heading-display text-4xl lg:text-6xl text-[#263C29] italic mb-6">
                 LET&apos;S CREATE TOGETHER
               </h2>
             </HeroText>
-            <p className="text-lg text-cream/80 mb-8">
+            <p className="text-lg text-[#263C29]/80 mb-8">
               Ready to capture your next event? Let&apos;s connect and bring your vision to life.
             </p>
             <MagneticHover>
