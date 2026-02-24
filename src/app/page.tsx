@@ -18,7 +18,7 @@ import {
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen bg-white">
       <Header />
 
       {/* Hero Section - Text overlaid on image like suzstudio.live */}
@@ -76,7 +76,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section className="pt-12 pb-8 lg:pt-20 lg:pb-12 px-6 lg:px-12 bg-[#FDE7CF]">
+      <section className="pt-4 pb-8 lg:pt-8 lg:pb-12 px-6 lg:px-12">
         <div className="max-w-7xl mx-auto">
           <div className="rounded-2xl p-6 lg:p-10">
             <div className="flex flex-col lg:flex-row gap-12 lg:gap-16 items-center">

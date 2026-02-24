@@ -15,7 +15,7 @@ import {
 
 export default function ContactPage() {
   return (
-    <main className="min-h-screen flex flex-col">
+    <main className="min-h-screen flex flex-col bg-white">
       <Header />
 
       {/* Contact Section - Full Height Split */}
