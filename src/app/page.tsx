@@ -136,7 +136,7 @@ export default function Home() {
                 <MagneticHover className="inline-block mb-6">
                   <Link
                     href="/work"
-                    className="inline-block text-gold text-xl tracking-wide font-medium border-b-2 border-gold pb-1 hover:text-accent-bright hover:border-accent-bright transition-all duration-300"
+                    className="inline-block text-[#263C29] text-xl tracking-wide font-medium border-b-2 border-[#263C29] pb-1 hover:text-[#1a2a1c] hover:border-[#1a2a1c] transition-all duration-300"
                   >
                     CHECK OUT MY WORK
                   </Link>
