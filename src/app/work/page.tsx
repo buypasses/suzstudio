@@ -419,9 +419,6 @@ export default function WorkPage() {
                 MY WORK
               </h1>
             </HeroText>
-            <p className="text-center text-[#263C29]/70 text-xs sm:text-sm mb-4 sm:mb-12 max-w-3xl mx-auto whitespace-nowrap">
-              Live content and professional capture for DJs, event producers, and creatives
-            </p>
           </FadeInUp>
 
           {/* Video Gallery Section */}
