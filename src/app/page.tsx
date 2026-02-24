@@ -76,7 +76,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section className="pt-12 pb-8 lg:pt-20 lg:pb-12 px-6 lg:px-12 bg-[#263C29]">
+      <section className="pt-12 pb-8 lg:pt-20 lg:pb-12 px-6 lg:px-12 bg-[#FDE7CF]">
         <div className="max-w-7xl mx-auto">
           <div className="rounded-2xl p-6 lg:p-10">
             <div className="flex flex-col lg:flex-row gap-12 lg:gap-16 items-center">
@@ -87,10 +87,10 @@ export default function Home() {
                     THE CREATOR
                   </h2>
                 </div>
-                <p className="text-cream/90 text-lg leading-relaxed mb-4">
+                <p className="text-[#263C29]/90 text-lg leading-relaxed mb-4">
                   I&apos;m Suzzy! A Los Angeles native based in Washington, DC. I&apos;m a videographer who captures DJs, event producers, and creatives and I turn their experiences into high-performing social content that feels authentic, energetic, and Instagram Story, Reel, and TikTok ready.
                 </p>
-                <p className="text-cream/90 text-lg leading-relaxed mb-8">
+                <p className="text-[#263C29]/90 text-lg leading-relaxed mb-8">
                   I offer real-time coverage shot on mobile and professionally shot video content using my camera setup for clients who want more polished, cinematic visuals. Whether you need promotional content, branded visuals, or behind the scenes content, I create high-quality footage that elevates your brand beyond social stories.
                 </p>
 
@@ -98,7 +98,7 @@ export default function Home() {
                   WHAT I OFFER
                 </h3>
 
-                <h4 className="text-cream text-xl font-semibold mb-3">Live Content Capture</h4>
+                <h4 className="text-[#263C29] text-xl font-semibold mb-3">Live Content Capture</h4>
                 <StaggerContainer staggerDelay={0.1} className="space-y-3 mb-6">
                   {[
                     'Real-time posting for Instagram Stories',
@@ -108,7 +108,7 @@ export default function Home() {
                     'Dropbox or iMessage delivery',
                   ].map((item, i) => (
                     <StaggerItem key={i}>
-                      <li className="flex items-start gap-3 text-cream/80 text-lg list-none">
+                      <li className="flex items-start gap-3 text-[#263C29]/80 text-lg list-none">
                         <span className="text-gold">•</span>
                         {item}
                       </li>
@@ -116,7 +116,7 @@ export default function Home() {
                   ))}
                 </StaggerContainer>
 
-                <h4 className="text-cream text-xl font-semibold mb-3">Professional Camera Production</h4>
+                <h4 className="text-[#263C29] text-xl font-semibold mb-3">Professional Camera Production</h4>
                 <StaggerContainer staggerDelay={0.1} className="space-y-3 mb-8">
                   {[
                     'High-quality event recap videos',
@@ -126,7 +126,7 @@ export default function Home() {
                     'Professionally shot footage for marketing campaigns',
                   ].map((item, i) => (
                     <StaggerItem key={i}>
-                      <li className="flex items-start gap-3 text-cream/80 text-lg list-none">
+                      <li className="flex items-start gap-3 text-[#263C29]/80 text-lg list-none">
                         <span className="text-gold">•</span>
                         {item}
                       </li>
