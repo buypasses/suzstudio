@@ -415,7 +415,7 @@ export default function WorkPage() {
         <div className="max-w-7xl mx-auto w-full">
           <FadeInUp>
             <HeroText delay={0.1}>
-              <h1 className="heading-display text-3xl sm:text-4xl lg:text-6xl text-center mb-2 sm:mb-4 text-[#263C29]">
+              <h1 className="heading-display text-3xl sm:text-4xl lg:text-6xl text-center mb-8 sm:mb-12 text-[#263C29]">
                 MY WORK
               </h1>
             </HeroText>
