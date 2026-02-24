@@ -88,10 +88,10 @@ export default function Home() {
                   </h2>
                 </div>
                 <p className="text-cream/90 text-lg leading-relaxed mb-4">
-                  I&apos;m Suzzy! A Los Angeles native based in Washington, DC. I&apos;m a videographer who captures DJs, event producers, and creatives and I turn their experiences into high-performing social content that feels authentic, energetic, and Instagram Story, Reel, and TikTok ready.
+                  I&apos;m Suzzy, an LA native based in Washington, DC. I&apos;m a videographer who captures DJs, event producers, and creatives. I turn experiences into authentic, high-performing content built for Instagram Stories, Reels, and TikTok.
                 </p>
                 <p className="text-cream/90 text-lg leading-relaxed mb-8">
-                  I offer real-time coverage shot on mobile and professionally shot video content using my camera setup for clients who want more polished, cinematic visuals. Whether you need promotional content, branded visuals, or behind the scenes content, I create high-quality footage that elevates your brand beyond social stories.
+                  I offer real-time mobile coverage and polished, cinematic camera work for brands that want to go beyond the scroll, from promos and branded visuals to behind-the-scenes content that elevates your presence.
                 </p>
 
                 <h3 className="heading-display text-3xl lg:text-4xl text-gold italic mb-6">
