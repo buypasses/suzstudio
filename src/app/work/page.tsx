@@ -229,9 +229,9 @@ function VideoGallery() {
 
   // Responsive video sizing based on screen width
   const getVideoWidth = () => {
-    if (screenWidth < 480) return 180  // Very small mobile
-    if (screenWidth < 640) return 210  // Small mobile
-    if (screenWidth < 768) return 240  // Mobile
+    if (screenWidth < 480) return 198  // Very small mobile
+    if (screenWidth < 640) return 231  // Small mobile
+    if (screenWidth < 768) return 264  // Mobile
     if (screenWidth < 1024) return 200 // Tablet
     return 256 // Desktop
   }
@@ -245,9 +245,9 @@ function VideoGallery() {
 
   // Responsive carousel height
   const getCarouselHeight = () => {
-    if (screenWidth < 480) return 360
-    if (screenWidth < 640) return 420
-    if (screenWidth < 768) return 480
+    if (screenWidth < 480) return 396
+    if (screenWidth < 640) return 462
+    if (screenWidth < 768) return 528
     if (screenWidth < 1024) return 400
     return 500
   }
