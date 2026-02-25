@@ -229,11 +229,11 @@ function VideoGallery() {
 
   // Responsive video sizing based on screen width
   const getVideoWidth = () => {
-    if (screenWidth < 480) return 180  // Very small mobile
-    if (screenWidth < 640) return 210  // Small mobile
-    if (screenWidth < 768) return 240  // Mobile
-    if (screenWidth < 1024) return 300 // Tablet
-    return 384 // Desktop
+    if (screenWidth < 480) return 225  // Very small mobile
+    if (screenWidth < 640) return 260  // Small mobile
+    if (screenWidth < 768) return 300  // Mobile
+    if (screenWidth < 1024) return 375 // Tablet
+    return 480 // Desktop
   }
 
   // Calculate X position for centered looping carousel
@@ -245,11 +245,11 @@ function VideoGallery() {
 
   // Responsive carousel height
   const getCarouselHeight = () => {
-    if (screenWidth < 480) return 360
-    if (screenWidth < 640) return 420
-    if (screenWidth < 768) return 480
-    if (screenWidth < 1024) return 600
-    return 750
+    if (screenWidth < 480) return 450
+    if (screenWidth < 640) return 525
+    if (screenWidth < 768) return 600
+    if (screenWidth < 1024) return 750
+    return 940
   }
 
   // Always show carousel view (removed mobile stacked view)
