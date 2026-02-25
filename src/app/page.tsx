@@ -24,7 +24,7 @@ export default function Home() {
       {/* Hero Section - Text overlaid on image like suzstudio.live */}
       <section className="relative pt-2 pb-2 sm:pt-4 sm:pb-3 lg:pt-4 lg:pb-4">
         <div className="px-4 sm:px-6 lg:px-12 max-w-7xl mx-auto w-full">
-          <h1 className="heading-display text-4xl sm:text-5xl lg:text-6xl text-[#263C29] italic text-center mb-3 sm:mb-4">
+          <h1 className="heading-display text-[11vw] sm:text-6xl lg:text-8xl text-[#263C29] italic text-center mb-3 sm:mb-4 whitespace-nowrap">
             SUZ&apos;S STUDIO
           </h1>
           <ScaleReveal>
@@ -133,18 +133,10 @@ export default function Home() {
                     </StaggerItem>
                   ))}
                 </StaggerContainer>
-                <MagneticHover className="inline-block mb-6">
-                  <Link
-                    href="/work"
-                    className="inline-block text-[#263C29] text-xl tracking-wide font-medium border-b-2 border-[#263C29] pb-1 hover:text-[#1a2a1b] hover:border-[#1a2a1b] transition-all duration-300"
-                  >
-                    CHECK OUT MY WORK
-                  </Link>
-                </MagneticHover>
               </FadeInLeft>
 
               {/* Image - use work-portrait-2 which matches original site */}
-              <FadeInRight className="lg:w-1/2" delay={0.2}>
+              <FadeInRight className="lg:w-1/2 flex flex-col items-center gap-6" delay={0.2}>
                 <ImageReveal direction="right">
                   <AnimatedGradientBorder>
                     <div className="relative rounded-xl overflow-hidden shadow-lg">
@@ -158,6 +150,14 @@ export default function Home() {
                     </div>
                   </AnimatedGradientBorder>
                 </ImageReveal>
+                <MagneticHover>
+                  <Link
+                    href="/work"
+                    className="inline-block px-8 py-4 bg-[#FFC643] text-[#263C29] text-lg font-bold tracking-widest rounded-lg hover:bg-[#e6b03c] transition-colors duration-300"
+                  >
+                    CHECK OUT MY WORK
+                  </Link>
+                </MagneticHover>
               </FadeInRight>
             </div>
           </div>
