@@ -85,12 +85,12 @@ export default function Home() {
             <div className="flex flex-col lg:flex-row gap-12 lg:gap-16 items-center">
               {/* Text Content */}
               <FadeInLeft className="lg:w-1/2">
-                <div className="float-smooth">
+                <div className="float-smooth text-center">
                   <h2 className="heading-display text-4xl lg:text-5xl text-[#263C29] italic mb-8">
                     THE CREATOR
                   </h2>
                 </div>
-                <p className="text-[#263C29]/90 text-lg leading-relaxed mb-8">
+                <p className="text-[#263C29]/90 text-lg leading-relaxed mb-8 text-center">
                   I&apos;m Suzzy, a Los Angeles native based in Washington, DC, and a videographer capturing DJs, event producers, and creatives—turning their experiences into high-performing, authentic, and energetic content optimized for Instagram Stories, Reels, and TikTok. I offer both real-time mobile coverage and professionally shot, cinematic video using my camera setup for clients who want polished promotional, branded, or behind-the-scenes content that elevates their brand beyond social stories.
                 </p>
 
@@ -153,7 +153,7 @@ export default function Home() {
                 <MagneticHover>
                   <Link
                     href="/work"
-                    className="inline-block px-8 py-4 bg-[#FFC643] text-[#263C29] text-lg font-bold tracking-widest rounded-lg hover:bg-[#e6b03c] transition-colors duration-300"
+                    className="inline-block px-8 py-4 bg-[#FFC643] text-[#263C29] font-medium tracking-wide rounded-lg hover:bg-[#e6b03c] transition-colors duration-300"
                   >
                     CHECK OUT MY WORK
                   </Link>
