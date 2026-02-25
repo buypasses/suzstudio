@@ -21,6 +21,13 @@ export default function Home() {
     <main className="min-h-screen">
       <Header />
 
+      {/* Site Title */}
+      <div className="px-4 sm:px-6 lg:px-12 max-w-7xl mx-auto w-full pt-4 pb-2 sm:pt-6 sm:pb-3">
+        <h1 className="heading-display text-3xl sm:text-4xl lg:text-5xl text-[#263C29] italic text-center">
+          Suz&apos;s Studio
+        </h1>
+      </div>
+
       {/* Hero Section - Text overlaid on image like suzstudio.live */}
       <section className="relative pt-2 pb-2 sm:pt-4 sm:pb-3 lg:pt-4 lg:pb-4">
         <div className="px-4 sm:px-6 lg:px-12 max-w-7xl mx-auto w-full">
