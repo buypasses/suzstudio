@@ -104,7 +104,7 @@ export default function Home() {
                   I&apos;m Suzzy, a Los Angeles native based in Washington, DC, and a videographer capturing DJs, event producers, and creatives—turning their experiences into high-performing, authentic, and energetic content optimized for Instagram Stories, Reels, and TikTok. I offer both real-time mobile coverage and professionally shot, cinematic video using my camera setup for clients who want polished promotional, branded, or behind-the-scenes content that elevates their brand beyond social stories.
                 </p>
 
-                <h3 className="heading-display text-3xl lg:text-4xl text-[#263C29] italic mb-6">
+                <h3 className="heading-display text-3xl lg:text-4xl text-[#263C29] italic mb-6 text-center">
                   WHAT I OFFER
                 </h3>
 
