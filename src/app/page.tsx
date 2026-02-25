@@ -23,7 +23,7 @@ export default function Home() {
 
       {/* Site Title */}
       <div className="px-4 sm:px-6 lg:px-12 max-w-7xl mx-auto w-full pt-4 pb-2 sm:pt-6 sm:pb-3">
-        <h1 className="heading-display text-3xl sm:text-4xl lg:text-5xl text-[#263C29] italic text-center">
+        <h1 className="heading-display text-7xl lg:text-8xl text-[#263C29] italic text-center">
           Suz&apos;s Studio
         </h1>
       </div>
