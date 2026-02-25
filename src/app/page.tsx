@@ -83,15 +83,15 @@ export default function Home() {
               {/* Text Content */}
               <FadeInLeft className="lg:w-1/2">
                 <div className="float-smooth">
-                  <h2 className="heading-display text-4xl lg:text-5xl text-[#263C29] italic mb-8">
+                  <h2 className="heading-display text-4xl lg:text-5xl text-[#263C29] italic mb-8 text-center lg:text-left">
                     THE CREATOR
                   </h2>
                 </div>
-                <p className="text-[#263C29]/90 text-lg leading-relaxed mb-8">
+                <p className="text-[#263C29]/90 text-base sm:text-lg leading-relaxed mb-8 text-center lg:text-left max-w-prose mx-auto lg:mx-0">
                   I&apos;m Suzzy, a Los Angeles native based in Washington, DC, and a videographer capturing DJs, event producers, and creatives—turning their experiences into high-performing, authentic, and energetic content optimized for Instagram Stories, Reels, and TikTok. I offer both real-time mobile coverage and professionally shot, cinematic video using my camera setup for clients who want polished promotional, branded, or behind-the-scenes content that elevates their brand beyond social stories.
                 </p>
 
-                <h3 className="heading-display text-3xl lg:text-4xl text-[#263C29] italic mb-6">
+                <h3 className="heading-display text-3xl lg:text-4xl text-[#263C29] italic mb-6 text-center lg:text-left">
                   WHAT I OFFER
                 </h3>
 
@@ -105,7 +105,7 @@ export default function Home() {
                     'Dropbox or iMessage delivery',
                   ].map((item, i) => (
                     <StaggerItem key={i}>
-                      <li className="flex items-start gap-3 text-[#263C29]/80 text-lg list-none">
+                      <li className="flex items-start gap-3 text-[#263C29]/80 text-base sm:text-lg list-none">
                         <span className="text-gold">•</span>
                         {item}
                       </li>
@@ -123,7 +123,7 @@ export default function Home() {
                     'Professionally shot footage for marketing campaigns',
                   ].map((item, i) => (
                     <StaggerItem key={i}>
-                      <li className="flex items-start gap-3 text-[#263C29]/80 text-lg list-none">
+                      <li className="flex items-start gap-3 text-[#263C29]/80 text-base sm:text-lg list-none">
                         <span className="text-gold">•</span>
                         {item}
                       </li>
