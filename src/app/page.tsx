@@ -75,6 +75,18 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Check Out My Work - Below hero image */}
+      <section className="py-4 px-6 bg-white flex justify-center">
+        <MagneticHover className="inline-block">
+          <Link
+            href="/work"
+            className="inline-block text-[#263C29] text-xs sm:text-base tracking-wide font-medium border-b-2 border-[#263C29] pb-1 hover:text-[#1a2a1b] hover:border-[#1a2a1b] transition-all duration-300"
+          >
+            CHECK OUT MY WORK
+          </Link>
+        </MagneticHover>
+      </section>
+
       {/* About Section */}
       <section className="pt-6 pb-8 lg:pt-10 lg:pb-12 px-6 lg:px-12 bg-white">
         <div className="max-w-7xl mx-auto">
@@ -87,7 +99,7 @@ export default function Home() {
                     THE CREATOR
                   </h2>
                 </div>
-                <p className="text-[#263C29]/90 text-lg leading-relaxed mb-8">
+                <p className="text-[#263C29]/90 text-lg leading-relaxed mb-8 text-center">
                   I&apos;m Suzzy, a Los Angeles native based in Washington, DC, and a videographer capturing DJs, event producers, and creatives—turning their experiences into high-performing, authentic, and energetic content optimized for Instagram Stories, Reels, and TikTok. I offer both real-time mobile coverage and professionally shot, cinematic video using my camera setup for clients who want polished promotional, branded, or behind-the-scenes content that elevates their brand beyond social stories.
                 </p>
 
@@ -130,14 +142,6 @@ export default function Home() {
                     </StaggerItem>
                   ))}
                 </StaggerContainer>
-                <MagneticHover className="inline-block mb-6">
-                  <Link
-                    href="/work"
-                    className="inline-block text-[#263C29] text-xl tracking-wide font-medium border-b-2 border-[#263C29] pb-1 hover:text-[#1a2a1b] hover:border-[#1a2a1b] transition-all duration-300"
-                  >
-                    CHECK OUT MY WORK
-                  </Link>
-                </MagneticHover>
               </FadeInLeft>
 
               {/* Image - use work-portrait-2 which matches original site */}
