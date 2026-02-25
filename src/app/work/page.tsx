@@ -229,11 +229,11 @@ function VideoGallery() {
 
   // Responsive video sizing based on screen width
   const getVideoWidth = () => {
-    if (screenWidth < 480) return 120  // Very small mobile
-    if (screenWidth < 640) return 140  // Small mobile
-    if (screenWidth < 768) return 160  // Mobile
-    if (screenWidth < 1024) return 200 // Tablet
-    return 256 // Desktop
+    if (screenWidth < 480) return 180  // Very small mobile
+    if (screenWidth < 640) return 210  // Small mobile
+    if (screenWidth < 768) return 240  // Mobile
+    if (screenWidth < 1024) return 300 // Tablet
+    return 384 // Desktop
   }
 
   // Calculate X position for centered looping carousel
@@ -245,11 +245,11 @@ function VideoGallery() {
 
   // Responsive carousel height
   const getCarouselHeight = () => {
-    if (screenWidth < 480) return 240
-    if (screenWidth < 640) return 280
-    if (screenWidth < 768) return 320
-    if (screenWidth < 1024) return 400
-    return 500
+    if (screenWidth < 480) return 360
+    if (screenWidth < 640) return 420
+    if (screenWidth < 768) return 480
+    if (screenWidth < 1024) return 600
+    return 750
   }
 
   // Always show carousel view (removed mobile stacked view)
@@ -423,9 +423,6 @@ export default function WorkPage() {
 
           {/* Video Gallery Section */}
           <FadeInUp delay={0.2}>
-            <h2 className="heading-display text-xl sm:text-2xl lg:text-3xl text-center mb-4 sm:mb-8 text-[#263C29] italic">
-              VIDEO HIGHLIGHTS
-            </h2>
             <VideoGallery />
           </FadeInUp>
 

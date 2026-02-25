@@ -24,6 +24,9 @@ export default function Home() {
       {/* Hero Section - Text overlaid on image like suzstudio.live */}
       <section className="relative pt-2 pb-2 sm:pt-4 sm:pb-3 lg:pt-4 lg:pb-4">
         <div className="px-4 sm:px-6 lg:px-12 max-w-7xl mx-auto w-full">
+          <h1 className="heading-display text-3xl sm:text-4xl lg:text-5xl text-[#263C29] italic text-center mb-3 sm:mb-4">
+            SUZ&apos;S STUDIO
+          </h1>
           <ScaleReveal>
             {/* Animated gradient border wrapper */}
             <AnimatedGradientBorder>
