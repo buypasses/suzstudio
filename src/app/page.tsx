@@ -75,6 +75,16 @@ export default function Home() {
               </div>
             </AnimatedGradientBorder>
           </ScaleReveal>
+          <div className="flex justify-center mt-4 sm:mt-6">
+            <MagneticHover>
+              <Link
+                href="/work"
+                className="inline-block px-8 py-4 bg-[#263C29] text-white font-medium tracking-wide rounded-lg hover:bg-[#1a2a1b] transition-colors duration-300"
+              >
+                CHECK OUT MY WORK
+              </Link>
+            </MagneticHover>
+          </div>
         </div>
       </section>
 
@@ -150,14 +160,6 @@ export default function Home() {
                     </div>
                   </AnimatedGradientBorder>
                 </ImageReveal>
-                <MagneticHover>
-                  <Link
-                    href="/work"
-                    className="inline-block px-8 py-4 bg-[#FFC643] text-[#263C29] font-medium tracking-wide rounded-lg hover:bg-[#e6b03c] transition-colors duration-300"
-                  >
-                    CHECK OUT MY WORK
-                  </Link>
-                </MagneticHover>
               </FadeInRight>
             </div>
           </div>
