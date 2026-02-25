@@ -22,7 +22,7 @@ export default function Home() {
       <Header />
 
       {/* Hero Section - Text overlaid on image like suzstudio.live */}
-      <section className="relative pt-2 pb-4 sm:pt-4 sm:pb-6 lg:pt-4 lg:pb-8">
+      <section className="relative pt-2 pb-2 sm:pt-4 sm:pb-3 lg:pt-4 lg:pb-4">
         <div className="px-4 sm:px-6 lg:px-12 max-w-7xl mx-auto w-full">
           <ScaleReveal>
             {/* Animated gradient border wrapper */}
@@ -76,25 +76,22 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section className="pt-12 pb-8 lg:pt-20 lg:pb-12 px-6 lg:px-12 bg-[#FDE7CF]">
+      <section className="pt-6 pb-8 lg:pt-10 lg:pb-12 px-6 lg:px-12 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="rounded-2xl p-6 lg:p-10">
             <div className="flex flex-col lg:flex-row gap-12 lg:gap-16 items-center">
               {/* Text Content */}
               <FadeInLeft className="lg:w-1/2">
                 <div className="float-smooth">
-                  <h2 className="heading-display text-4xl lg:text-5xl text-gold italic mb-8">
+                  <h2 className="heading-display text-4xl lg:text-5xl text-[#263C29] italic mb-8">
                     THE CREATOR
                   </h2>
                 </div>
-                <p className="text-[#263C29]/90 text-lg leading-relaxed mb-4">
-                  I&apos;m Suzzy! A Los Angeles native based in Washington, DC. I&apos;m a videographer who captures DJs, event producers, and creatives and I turn their experiences into high-performing social content that feels authentic, energetic, and Instagram Story, Reel, and TikTok ready.
-                </p>
                 <p className="text-[#263C29]/90 text-lg leading-relaxed mb-8">
-                  I offer real-time coverage shot on mobile and professionally shot video content using my camera setup for clients who want more polished, cinematic visuals. Whether you need promotional content, branded visuals, or behind the scenes content, I create high-quality footage that elevates your brand beyond social stories.
+                  I&apos;m Suzzy, a Los Angeles native based in Washington, DC, and a videographer capturing DJs, event producers, and creatives—turning their experiences into high-performing, authentic, and energetic content optimized for Instagram Stories, Reels, and TikTok. I offer both real-time mobile coverage and professionally shot, cinematic video using my camera setup for clients who want polished promotional, branded, or behind-the-scenes content that elevates their brand beyond social stories.
                 </p>
 
-                <h3 className="heading-display text-3xl lg:text-4xl text-gold italic mb-6">
+                <h3 className="heading-display text-3xl lg:text-4xl text-[#263C29] italic mb-6">
                   WHAT I OFFER
                 </h3>
 
@@ -136,7 +133,7 @@ export default function Home() {
                 <MagneticHover className="inline-block mb-6">
                   <Link
                     href="/work"
-                    className="inline-block text-gold text-xl tracking-wide font-medium border-b-2 border-gold pb-1 hover:text-accent-bright hover:border-accent-bright transition-all duration-300"
+                    className="inline-block text-[#263C29] text-xl tracking-wide font-medium border-b-2 border-[#263C29] pb-1 hover:text-[#1a2a1b] hover:border-[#1a2a1b] transition-all duration-300"
                   >
                     CHECK OUT MY WORK
                   </Link>
