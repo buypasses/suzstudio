@@ -92,7 +92,7 @@ export default function Home() {
       <section className="pt-2 pb-8 lg:pt-4 lg:pb-12 px-6 lg:px-12 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="rounded-2xl p-6 lg:p-10">
-            <div className="flex flex-col lg:flex-row gap-12 lg:gap-16 items-center">
+            <div className="flex flex-col lg:flex-row gap-4 lg:gap-16 items-center">
               {/* Text Content */}
               <FadeInLeft className="lg:w-1/2">
                 <div className="float-smooth text-center">
@@ -127,7 +127,7 @@ export default function Home() {
                 </StaggerContainer>
 
                 <h4 className="text-[#263C29] text-xl font-semibold mb-3">Professional Camera Production</h4>
-                <StaggerContainer staggerDelay={0.1} className="space-y-3 mb-8">
+                <StaggerContainer staggerDelay={0.1} className="space-y-3 mb-2">
                   {[
                     'High-quality event recap videos',
                     'Branded promotional videos',
