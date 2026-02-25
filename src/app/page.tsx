@@ -75,7 +75,7 @@ export default function Home() {
               </div>
             </AnimatedGradientBorder>
           </ScaleReveal>
-          <div className="flex justify-center mt-4 sm:mt-6">
+          <div className="flex justify-center mt-10 sm:mt-12">
             <MagneticHover>
               <Link
                 href="/work"
@@ -89,7 +89,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section className="pt-6 pb-8 lg:pt-10 lg:pb-12 px-6 lg:px-12 bg-white">
+      <section className="pt-2 pb-8 lg:pt-4 lg:pb-12 px-6 lg:px-12 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="rounded-2xl p-6 lg:p-10">
             <div className="flex flex-col lg:flex-row gap-12 lg:gap-16 items-center">
