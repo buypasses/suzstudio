@@ -419,9 +419,6 @@ export default function WorkPage() {
                 MY WORK
               </h1>
             </HeroText>
-            <p className="text-center text-[#263C29]/70 text-xs sm:text-sm mb-4 sm:mb-12 max-w-3xl mx-auto whitespace-nowrap">
-              Live content and professional capture for DJs, event producers, and creatives
-            </p>
           </FadeInUp>
 
           {/* Video Gallery Section */}
@@ -473,7 +470,7 @@ export default function WorkPage() {
             <MagneticHover>
               <Link
                 href="/contact"
-                className="inline-block px-8 py-4 bg-gold text-background font-medium tracking-wide rounded-lg hover:bg-accent-bright transition-colors duration-300"
+                className="inline-block px-8 py-4 bg-[#263C29] text-white font-medium tracking-wide rounded-lg hover:bg-[#1a2a1b] transition-colors duration-300"
               >
                 GET IN TOUCH
               </Link>

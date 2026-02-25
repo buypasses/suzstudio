@@ -50,20 +50,20 @@ export default function ContactPage() {
                   <div>
                     <div className="float-smooth">
                       <HeroText delay={0.1}>
-                        <h1 className="heading-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-gold italic mb-2">
+                        <h1 className="heading-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-[#263C29] italic mb-2">
                           LET&apos;S
                         </h1>
                       </HeroText>
                     </div>
                     <div className="float-smooth-delayed">
                       <HeroText delay={0.2}>
-                        <h1 className="heading-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-gold italic">
+                        <h1 className="heading-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-[#263C29] italic">
                           CONNECT!
                         </h1>
                       </HeroText>
                     </div>
                     <FadeInUp delay={0.3}>
-                      <p className="text-foreground/70 text-base sm:text-lg max-w-sm mx-auto md:mx-0 mt-4">
+                      <p className="text-[#263C29] text-base sm:text-lg max-w-sm mx-auto md:mx-0 mt-4">
                         Ready to capture your next event? Let&apos;s create something amazing together.
                       </p>
                     </FadeInUp>

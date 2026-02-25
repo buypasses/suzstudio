@@ -6,7 +6,7 @@
 
 :root {
   /* Portfolio Theme - Suz Studio Colors */
-  --background: #FDE7CF;
+  --background: #FFFFFF;
   --foreground: #304254;
 
   --accent: #D2B68A;
@@ -16,7 +16,7 @@
   --muted: #A29587;
   --muted-foreground: #6B5D50;
 
-  --card: #3D4F5F;
+  --card: #263C29;
   --card-foreground: #FFFFFF;
 
   --border: rgba(48, 66, 84, 0.15);

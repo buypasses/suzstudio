@@ -10,8 +10,8 @@ export default function Header() {
     const isActive = pathname === href
     return `text-sm sm:text-base tracking-wide transition-all duration-300 py-2 px-4 rounded-full ${
       isActive
-        ? 'bg-gold text-[#263C29] font-medium'
-        : 'bg-cream/90 text-[#263C29] hover:bg-gold/80'
+        ? 'bg-[#263C29] text-white font-medium'
+        : 'bg-[#263C29]/80 text-white hover:bg-[#263C29]'
     }`
   }
 
