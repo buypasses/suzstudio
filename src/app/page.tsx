@@ -81,63 +81,67 @@ export default function Home() {
           <div className="rounded-2xl p-6 lg:p-10">
             <div className="flex flex-col lg:flex-row gap-12 lg:gap-16 items-center">
               {/* Text Content */}
-              <FadeInLeft className="lg:w-1/2">
-                <div className="float-smooth">
-                  <h2 className="heading-display text-4xl lg:text-5xl text-[#263C29] italic mb-8">
-                    THE CREATOR
-                  </h2>
+              <FadeInLeft className="lg:w-1/2 w-full">
+                <div className="max-w-xl mx-auto lg:mx-0">
+                  <div className="float-smooth">
+                    <h2 className="heading-display text-4xl lg:text-5xl text-[#263C29] italic mb-8 text-center lg:text-left">
+                      THE CREATOR
+                    </h2>
+                  </div>
+                  <p className="text-[#263C29]/90 text-base lg:text-lg leading-relaxed mb-8 text-center lg:text-left">
+                    I&apos;m Suzzy, a Los Angeles native based in Washington, DC, and a videographer capturing DJs, event producers, and creatives—turning their experiences into high-performing, authentic, and energetic content optimized for Instagram Stories, Reels, and TikTok. I offer both real-time mobile coverage and professionally shot, cinematic video using my camera setup for clients who want polished promotional, branded, or behind-the-scenes content that elevates their brand beyond social stories.
+                  </p>
+
+                  <h3 className="heading-display text-3xl lg:text-4xl text-[#263C29] italic mb-6 text-center lg:text-left">
+                    WHAT I OFFER
+                  </h3>
+
+                  <h4 className="text-[#263C29] text-base font-semibold mb-3 text-center lg:text-left tracking-wide uppercase">Live Content Capture</h4>
+                  <StaggerContainer staggerDelay={0.1} className="space-y-3 mb-6">
+                    {[
+                      'Real-time posting for Instagram Stories',
+                      'Clear, quality short-form content for Instagram Reels, TikTok, YouTube Shorts, etc.',
+                      'Crowd reactions, emotion, and momentum shots',
+                      'Quick turnaround for raw footage delivery (less than 24 hours)',
+                      'Dropbox or iMessage delivery',
+                    ].map((item, i) => (
+                      <StaggerItem key={i}>
+                        <li className="flex items-start gap-3 text-[#263C29]/80 text-sm lg:text-base list-none">
+                          <span className="text-gold mt-0.5">•</span>
+                          {item}
+                        </li>
+                      </StaggerItem>
+                    ))}
+                  </StaggerContainer>
+
+                  <h4 className="text-[#263C29] text-base font-semibold mb-3 text-center lg:text-left tracking-wide uppercase">Professional Camera Production</h4>
+                  <StaggerContainer staggerDelay={0.1} className="space-y-3 mb-8">
+                    {[
+                      'High-quality event recap videos',
+                      'Branded promotional videos',
+                      'Artist/DJ performance coverage',
+                      'Behind-the-scenes content',
+                      'Professionally shot footage for marketing campaigns',
+                    ].map((item, i) => (
+                      <StaggerItem key={i}>
+                        <li className="flex items-start gap-3 text-[#263C29]/80 text-sm lg:text-base list-none">
+                          <span className="text-gold mt-0.5">•</span>
+                          {item}
+                        </li>
+                      </StaggerItem>
+                    ))}
+                  </StaggerContainer>
+                  <div className="flex justify-center lg:justify-start">
+                    <MagneticHover className="inline-block mb-6">
+                      <Link
+                        href="/work"
+                        className="inline-block text-[#263C29] text-base tracking-widest font-medium border-b-2 border-[#263C29] pb-1 hover:text-[#1a2a1b] hover:border-[#1a2a1b] transition-all duration-300 uppercase"
+                      >
+                        Check Out My Work
+                      </Link>
+                    </MagneticHover>
+                  </div>
                 </div>
-                <p className="text-[#263C29]/90 text-lg leading-relaxed mb-8">
-                  I&apos;m Suzzy, a Los Angeles native based in Washington, DC, and a videographer capturing DJs, event producers, and creatives—turning their experiences into high-performing, authentic, and energetic content optimized for Instagram Stories, Reels, and TikTok. I offer both real-time mobile coverage and professionally shot, cinematic video using my camera setup for clients who want polished promotional, branded, or behind-the-scenes content that elevates their brand beyond social stories.
-                </p>
-
-                <h3 className="heading-display text-3xl lg:text-4xl text-[#263C29] italic mb-6">
-                  WHAT I OFFER
-                </h3>
-
-                <h4 className="text-[#263C29] text-xl font-semibold mb-3">Live Content Capture</h4>
-                <StaggerContainer staggerDelay={0.1} className="space-y-3 mb-6">
-                  {[
-                    'Real-time posting for Instagram Stories',
-                    'Clear, quality short-form content for Instagram Reels, TikTok, YouTube Shorts, etc.',
-                    'Crowd reactions, emotion, and momentum shots',
-                    'Quick turnaround for raw footage delivery (less than 24 hours)',
-                    'Dropbox or iMessage delivery',
-                  ].map((item, i) => (
-                    <StaggerItem key={i}>
-                      <li className="flex items-start gap-3 text-[#263C29]/80 text-lg list-none">
-                        <span className="text-gold">•</span>
-                        {item}
-                      </li>
-                    </StaggerItem>
-                  ))}
-                </StaggerContainer>
-
-                <h4 className="text-[#263C29] text-xl font-semibold mb-3">Professional Camera Production</h4>
-                <StaggerContainer staggerDelay={0.1} className="space-y-3 mb-8">
-                  {[
-                    'High-quality event recap videos',
-                    'Branded promotional videos',
-                    'Artist/DJ performance coverage',
-                    'Behind-the-scenes content',
-                    'Professionally shot footage for marketing campaigns',
-                  ].map((item, i) => (
-                    <StaggerItem key={i}>
-                      <li className="flex items-start gap-3 text-[#263C29]/80 text-lg list-none">
-                        <span className="text-gold">•</span>
-                        {item}
-                      </li>
-                    </StaggerItem>
-                  ))}
-                </StaggerContainer>
-                <MagneticHover className="inline-block mb-6">
-                  <Link
-                    href="/work"
-                    className="inline-block text-[#263C29] text-xl tracking-wide font-medium border-b-2 border-[#263C29] pb-1 hover:text-[#1a2a1b] hover:border-[#1a2a1b] transition-all duration-300"
-                  >
-                    CHECK OUT MY WORK
-                  </Link>
-                </MagneticHover>
               </FadeInLeft>
 
               {/* Image - use work-portrait-2 which matches original site */}
