@@ -233,7 +233,7 @@ function VideoGallery() {
     if (screenWidth < 640) return 260  // Small mobile
     if (screenWidth < 768) return 300  // Mobile
     if (screenWidth < 1024) return 375 // Tablet
-    return 411 // Desktop (15% reduction from 480)
+    return 390 // Desktop (20% reduction from 480)
   }
 
   // Calculate X position for centered looping carousel
@@ -249,7 +249,7 @@ function VideoGallery() {
     if (screenWidth < 640) return 525
     if (screenWidth < 768) return 600
     if (screenWidth < 1024) return 750
-    return 806 // Desktop (15% reduction from 940)
+    return 766 // Desktop (20% reduction from 940)
   }
 
   // Always show carousel view (removed mobile stacked view)
