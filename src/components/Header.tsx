@@ -28,23 +28,23 @@ export default function Header() {
           aria-label="Open menu"
           className="flex flex-col justify-center items-center gap-[6px] w-10 h-10"
         >
-          <span className="block w-7 h-[2px] bg-[#304254] rounded-full" />
-          <span className="block w-7 h-[2px] bg-[#304254] rounded-full" />
-          <span className="block w-7 h-[2px] bg-[#304254] rounded-full" />
+          <span className="block w-7 h-[2px] bg-[#263C29] rounded-full" />
+          <span className="block w-7 h-[2px] bg-[#263C29] rounded-full" />
+          <span className="block w-7 h-[2px] bg-[#263C29] rounded-full" />
         </button>
       </header>
 
       {/* Overlay backdrop */}
       {open && (
         <div
-          className="fixed inset-0 z-50 bg-[#304254]/60 backdrop-blur-sm"
+          className="fixed inset-0 z-50 bg-[#263C29]/60 backdrop-blur-sm"
           onClick={() => setOpen(false)}
         />
       )}
 
       {/* Slide-in drawer */}
       <nav
-        className={`fixed top-0 right-0 h-full w-64 z-50 bg-[#304254] shadow-2xl flex flex-col transition-transform duration-300 ease-in-out ${
+        className={`fixed top-0 right-0 h-full w-64 z-50 bg-[#263C29] shadow-2xl flex flex-col transition-transform duration-300 ease-in-out ${
           open ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
@@ -53,7 +53,7 @@ export default function Header() {
           <button
             onClick={() => setOpen(false)}
             aria-label="Close menu"
-            className="text-[#D2B68A] hover:text-white transition-colors"
+            className="text-white/70 hover:text-white transition-colors"
           >
             <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
               <line x1="4" y1="4" x2="24" y2="24" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
@@ -75,7 +75,7 @@ export default function Header() {
                 key={href}
                 href={href}
                 className={`heading-display text-3xl italic py-4 border-b border-white/10 transition-colors duration-200 ${
-                  isActive ? 'text-[#D2B68A]' : 'text-white hover:text-[#D2B68A]'
+                  isActive ? 'text-white' : 'text-white/70 hover:text-white'
                 }`}
               >
                 {label}

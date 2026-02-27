@@ -75,7 +75,7 @@ export default function Home() {
               </div>
             </AnimatedGradientBorder>
           </ScaleReveal>
-          <div className="flex justify-center mt-10 sm:mt-12">
+          <div className="flex justify-center mt-6 sm:mt-8 mb-4 sm:mb-6">
             <MagneticHover>
               <Link
                 href="/work"
