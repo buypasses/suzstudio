@@ -22,8 +22,11 @@ export default function Home() {
       <Header />
 
       {/* Hero Section - Text overlaid on image like suzstudio.live */}
-      <section className="relative pt-2 pb-2 sm:pt-4 sm:pb-3 lg:pt-4 lg:pb-4">
+      <section className="relative pt-10 pb-2 sm:pt-14 sm:pb-3 lg:pt-16 lg:pb-4">
         <div className="px-4 sm:px-6 lg:px-12 max-w-7xl mx-auto w-full">
+          <h1 className="heading-display text-[11vw] sm:text-6xl lg:text-8xl text-[#263C29] italic text-center mb-3 sm:mb-4 whitespace-nowrap">
+            SUZ&apos;S STUDIO
+          </h1>
           <ScaleReveal>
             {/* Animated gradient border wrapper */}
             <AnimatedGradientBorder>
@@ -72,26 +75,36 @@ export default function Home() {
               </div>
             </AnimatedGradientBorder>
           </ScaleReveal>
+          <div className="flex justify-center mt-6 sm:mt-8 mb-4 sm:mb-6">
+            <MagneticHover>
+              <Link
+                href="/work"
+                className="inline-block px-8 py-4 bg-[#263C29] text-white font-medium tracking-wide rounded-lg hover:bg-[#1a2a1b] transition-colors duration-300"
+              >
+                CHECK OUT MY WORK
+              </Link>
+            </MagneticHover>
+          </div>
         </div>
       </section>
 
       {/* About Section */}
-      <section className="pt-6 pb-8 lg:pt-10 lg:pb-12 px-6 lg:px-12 bg-white">
+      <section className="pt-0 pb-8 lg:pt-1 lg:pb-12 px-6 lg:px-12 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="rounded-2xl p-6 lg:p-10">
-            <div className="flex flex-col lg:flex-row gap-12 lg:gap-16 items-center">
+            <div className="flex flex-col lg:flex-row gap-4 lg:gap-16 items-center">
               {/* Text Content */}
               <FadeInLeft className="lg:w-1/2">
-                <div className="float-smooth">
-                  <h2 className="heading-display text-4xl lg:text-5xl text-[#263C29] italic mb-8">
+                <div className="float-smooth text-center">
+                  <h2 className="heading-display text-4xl lg:text-5xl text-[#263C29] italic mb-3">
                     THE CREATOR
                   </h2>
                 </div>
-                <p className="text-[#263C29]/90 text-lg leading-relaxed mb-8">
+                <p className="text-[#263C29]/90 text-lg leading-relaxed mb-8 text-center">
                   I&apos;m Suzzy, a Los Angeles native based in Washington, DC, and a videographer capturing DJs, event producers, and creatives—turning their experiences into high-performing, authentic, and energetic content optimized for Instagram Stories, Reels, and TikTok. I offer both real-time mobile coverage and professionally shot, cinematic video using my camera setup for clients who want polished promotional, branded, or behind-the-scenes content that elevates their brand beyond social stories.
                 </p>
 
-                <h3 className="heading-display text-3xl lg:text-4xl text-[#263C29] italic mb-6">
+                <h3 className="heading-display text-3xl lg:text-4xl text-[#263C29] italic mb-6 text-center">
                   WHAT I OFFER
                 </h3>
 
@@ -114,7 +127,7 @@ export default function Home() {
                 </StaggerContainer>
 
                 <h4 className="text-[#263C29] text-xl font-semibold mb-3">Professional Camera Production</h4>
-                <StaggerContainer staggerDelay={0.1} className="space-y-3 mb-8">
+                <StaggerContainer staggerDelay={0.1} className="space-y-3 mb-2">
                   {[
                     'High-quality event recap videos',
                     'Branded promotional videos',
@@ -130,18 +143,10 @@ export default function Home() {
                     </StaggerItem>
                   ))}
                 </StaggerContainer>
-                <MagneticHover className="inline-block mb-6">
-                  <Link
-                    href="/work"
-                    className="inline-block text-[#263C29] text-xl tracking-wide font-medium border-b-2 border-[#263C29] pb-1 hover:text-[#1a2a1b] hover:border-[#1a2a1b] transition-all duration-300"
-                  >
-                    CHECK OUT MY WORK
-                  </Link>
-                </MagneticHover>
               </FadeInLeft>
 
               {/* Image - use work-portrait-2 which matches original site */}
-              <FadeInRight className="lg:w-1/2" delay={0.2}>
+              <FadeInRight className="lg:w-1/2 flex flex-col items-center gap-6" delay={0.2}>
                 <ImageReveal direction="right">
                   <AnimatedGradientBorder>
                     <div className="relative rounded-xl overflow-hidden shadow-lg">
