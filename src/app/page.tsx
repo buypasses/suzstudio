@@ -89,14 +89,14 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section className="pt-2 pb-8 lg:pt-4 lg:pb-12 px-6 lg:px-12 bg-white">
+      <section className="pt-0 pb-8 lg:pt-1 lg:pb-12 px-6 lg:px-12 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="rounded-2xl p-6 lg:p-10">
             <div className="flex flex-col lg:flex-row gap-4 lg:gap-16 items-center">
               {/* Text Content */}
               <FadeInLeft className="lg:w-1/2">
                 <div className="float-smooth text-center">
-                  <h2 className="heading-display text-4xl lg:text-5xl text-[#263C29] italic mb-8">
+                  <h2 className="heading-display text-4xl lg:text-5xl text-[#263C29] italic mb-3">
                     THE CREATOR
                   </h2>
                 </div>
