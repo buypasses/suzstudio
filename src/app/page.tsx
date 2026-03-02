@@ -25,7 +25,7 @@ export default function Home() {
       <section className="relative pt-16 pb-2 sm:pt-20 sm:pb-3 lg:pt-24 lg:pb-4">
         <div className="px-4 sm:px-6 lg:px-12 max-w-7xl mx-auto w-full">
           <h1 className="heading-display text-[11vw] sm:text-6xl lg:text-8xl text-[#263C29] italic text-center mb-6 sm:mb-8 whitespace-nowrap">
-            SUZ&apos;S STUDIO
+            SUZ STUDIO
           </h1>
           <ScaleReveal>
             {/* Animated gradient border wrapper */}
