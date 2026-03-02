@@ -7,7 +7,7 @@ export default function Footer({ className = '' }: FooterProps) {
     <footer className={`py-3 px-6 lg:px-12 border-t border-border ${className}`}>
       <div className="max-w-7xl mx-auto text-center">
         <p className="text-sm text-muted-foreground">
-          &copy; {new Date().getFullYear()} Suz&apos;s Studio. All rights reserved.
+          &copy; {new Date().getFullYear()} Suz Studio. All rights reserved.
         </p>
       </div>
     </footer>
